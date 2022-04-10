@@ -583,29 +583,29 @@ video {
 
 h1 {
   margin-bottom: 1.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(33, 47, 73, var(--tw-bg-opacity));
   font-family: Oswald;
   font-size: 3rem;
   line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgba(33, 47, 73, var(--tw-text-opacity));
 }
 
 h2 {
   margin-bottom: 0.75rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(33, 47, 73, var(--tw-bg-opacity));
   font-family: Oswald;
   font-size: 1.875rem;
   line-height: 2.25rem;
+  --tw-text-opacity: 1;
+  color: rgba(33, 47, 73, var(--tw-text-opacity));
 }
 
 h3 {
   margin-bottom: 0.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgba(33, 47, 73, var(--tw-bg-opacity));
   font-family: Oswald;
   font-size: 1.5rem;
   line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgba(33, 47, 73, var(--tw-text-opacity));
 }
 
 .container {
