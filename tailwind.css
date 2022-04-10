@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+    @font-face {
+        font-family: "Oswald";
+        src: url("/dist/fonts/oswald/Oswald-Bold.ttf") format("truetype")
+    }
+
     h1 {
         @apply text-5xl mb-6;
     }
