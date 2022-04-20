@@ -18,7 +18,7 @@
         </div>
     </section>
 
-    <section class="grid grid-cols-2 gap-10 mt-8" id="image_services">
+    <section class="grid grid-cols-2 gap-5 md:gap-10 mt-8" id="image_services">
         <! - picture ->
         <div id="image" class="ml-auto">
             <img src="img/tom.jpg" alt="Tom Gonzales Online Training">
@@ -28,20 +28,31 @@
         <div id="services">
             <h3>I offer you:</h3>
             <ul class="ml-6 list-disc">
-                <li class="mb-4 text-xl">Lessons via Skype and you can record all sessions and watch them again later.
-                </li>
-                <li class="mb-4 text-xl">Holistic full body training</li>
-                <li class="mb-4 text-xl">Training without equipment</li>
-                <li class="mb-4 text-xl">Pain reduction</li>
-                <li class="mb-4 text-xl">Tailored nutrition plans</li>
+                <li>Lessons via Skype and you can record all sessions and watch them again later.</li>
+                <li>Holistic full body training</li>
+                <li>Training without equipment</li>
+                <li>Pain reduction</li>
+                <li>Tailored nutrition plans</li>
             </ul>
-            <h3 class="mt-10">My qualifications:</h3>
-            <ul class="ml-6 list-disc">
-                <li class="mb-4 text-xl">Certified nutritionist</li>
-                <li class="mb-4 text-xl">Certified fitness trainer</li>
-                <li class="mb-4 text-xl">5 years of experience in 1: 1 training</li>
-            </ul>
+            <div class="hidden md:block">
+                <h3 class="mt-10">My qualifications:</h3>
+                <ul class="ml-6 list-disc">
+                    <li>Certified nutritionist</li>
+                    <li>Certified fitness trainer</li>
+                    <li>5 years of experience in 1: 1 training</li>
+                </ul>
+            </div>
         </div>
+    </section>
+
+    <!--  only for <= sm  -->
+    <section class="md:hidden">
+        <h3 class="mt-10">My qualifications:</h3>
+        <ul class="ml-6 list-disc">
+            <li>Certified nutritionist</li>
+            <li>Certified fitness trainer</li>
+            <li>5 years of experience in 1: 1 training</li>
+        </ul>
     </section>
 
     <! - Prices and payment ->
