@@ -607,7 +607,7 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-family: Oswald;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -617,6 +617,7 @@ h3 {
 
 @media (min-width: 768px) {
   h3 {
+    margin-bottom: 0.5rem;
     font-size: 1.5rem;
     line-height: 2rem;
   }
