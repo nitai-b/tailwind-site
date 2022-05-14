@@ -13,7 +13,7 @@
 <div class="container min-h-screen px-6 py-8 mx-auto bg-gray-100 dark:bg-gray-900">
     <section id="toggle-dark-mode">
         <div class="flex justify-end">
-            <button @click="dark=!dark" class="flex items-center align-baseline px-4 py-2 transition bg-gray-300 dark:bg-gray-500 dark:text-white rounded shadow-sm w-max hover:bg-gray-400 hover:text-white hover:shadow-none dark:hover:bg-gray-600 focus:outline-none">
+            <button @click="dark=!dark" class="btn btn-icon btn-gray">
                 <span class="flex items-center">
                     <!-- moon -->
                     <svg x-show="!dark" xmlns="http://www.w3.org/2000/svg" class="h-6 text-indigo-500" viewBox="0 0 20 20" fill="currentColor">
@@ -96,7 +96,7 @@
         <div class="flex justify-around lg:w-8/12 lg:mx-auto">
             <div id="email">
                 <p>Your message:</p>
-                <a class="flex items-center px-4 py-2 transition bg-gray-300 dark:bg-gray-500 dark:text-white rounded shadow-sm w-max hover:bg-gray-400 hover:text-white hover:shadow-none dark:hover:bg-gray-600 focus:ring-2 focus:ring-yellow-400"
+                <a class="btn btn-icon btn-indigo"
                    href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                          stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
