@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html x-data="{ dark: true }" lang="en" :class="dark ? 'dark' : ''">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +13,15 @@
 <div class="container min-h-screen px-6 py-8 mx-auto bg-gray-100 dark:bg-gray-900">
     <! - page header / headings ->
     <section id="header">
+        <button @click="dark=!dark" class="bg-gray-300 rounded">Toggle Dark Mode</button>
         <div class="text-center">
             <h1 class="leading-snug">Tom Gonzales home training<br>
                 <span class="text-indigo-900 dark:text-indigo-300 italic text-4xl sm:text-5xl lg:text-7xl opacity-80">
                     <q>&nbsp;I'll get you in shape!&nbsp;</q>
                 </span>
             </h1>
-            <h2>Muscle building • Functional training <br class="sm:hidden"> <span class="hidden sm:inline">•</span> Nutritional advice</h2>
+            <h2>Muscle building • Functional training <br class="sm:hidden"> <span class="hidden sm:inline">•</span>
+                Nutritional advice</h2>
         </div>
     </section>
 
@@ -67,7 +69,8 @@
             <h2 class="xl:text-3xl">Prices and payment</h2>
             <div class="text-justify">
                 <p>My most important goal is that you get ahead with your goals.</p>
-                <p>In a free opening session we will discuss what you want to achieve and how much you can or want to spend.
+                <p>In a free opening session we will discuss what you want to achieve and how much you can or want to
+                    spend.
                     Then we are guaranteed to find a solution that suits you.</p>
             </div>
         </div>
@@ -91,7 +94,7 @@
             </div>
             <div id="whatsApp_telefone">
                 <p>WhatsApp:</p>
-                 <span class="xl:text-lg 2xl:text-2xl dark:text-gray-100">1 222 555 44 33</span>
+                <span class="xl:text-lg 2xl:text-2xl dark:text-gray-100">1 222 555 44 33</span>
             </div>
         </div>
     </section>
